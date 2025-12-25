@@ -42,7 +42,8 @@ ssh -p 443 -R0:localhost:11434 [qr@a.pin](mailto:qr@a.pin)
 
 <img width="582" height="134" alt="image" src="https://github.com/user-attachments/assets/f514b61a-30e8-42eb-a472-44d871941510" />
 
->Lưu ý: Tại cuối đường link phải thêm /api/generate
+>Lưu ý: Tại cuối đường link phải thêm /api/generate <
+>VD: API_URL = "http://ppenj-34-16-173-185.a.free.pinggy.link/api/generate" >
 
 **Bước 2**. Tại Terminal nhập lệnh 
 ```
@@ -52,6 +53,11 @@ hoặc
 ```
 py -m streamlit run chat_ui.py
 ```
+hoặc
+```
+python -m streamlit run chat_ui.py
+```
+
 
 ## IV. Cấu trúc mã nguồn
 <pre>
